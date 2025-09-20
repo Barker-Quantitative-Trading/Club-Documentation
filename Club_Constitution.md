@@ -20,7 +20,7 @@ The duties of each officer shall be as follows:
 The president of IQTC shall:
 1. Host executive board meetings
 2. Prepare an agenda for each executive and general meeting
-3. Keep and advisor and sponsors up to date on all club activities as necessary
+3. Keep the advisor and sponsors up to date on all club activities as necessary
 4. Serve as the official spokesperson of the club
 5. Appoint committees and delegate work among club members as appropriate
 6. May create appointed positions as needed
@@ -50,9 +50,8 @@ The treasurer of IQTC shall:
 Any student at the University of Idaho is eligible for membership within the club. Students can become official members of the club by either signing up through Engage, contributing to the server, or completing a quant project under the guidance of the club. Members will remain in good standing if they come to most general meetings and stay in communication with the club.
 
 *** Article V ***
-The club shall meet with the general members every Thursday from 5:00 pm - 6:00 pm in JEB 128. The executive members of the club shall meet on Tuesdays at 8:15 pm every week as well, on some online platform. Any member of the executive team may call a special or emergency meeting at any time by messaging the other members of the executive team. 
-
-The club reaches quorum when over 50% of members are present. Quorum is required for votes regarding changes to club constitution, any allocation of club budget to projects or travel  expenses, and when electing new executive members.
+The club shall meet with the general members every Thursday from 5:00 pm - 6:00 pm in JEB 128. The executive members of the club shall meet on Tuesdays at 8:15 pm every week as well, on some online platform. Any member of the executive team may call a special or emergency meeting at any time by messaging the other members of the executive team.
+The club reaches quorum when over 50% of members are present. Quorum is required for votes regarding changes to club constitution any allocation of club budget to projects or travel expenses, and when electing new executive members.
 
 *** Article VI ***
 The rules contained in the current edition of Robert’s Rules of Order, Newly Revised, shall
@@ -70,8 +69,8 @@ _______________
 
 I have read, understand and agree to the contents of this document. By signing this I agree that over 75% of IQTC voted and approved of this constitution.
 
-Date:			Signature: 		
-Date:			Signature:
-Date:			Signature:
+Date:                   Signature:
+Date:                   Signature:
+Date:                   Signature:
 
 This document is to be signed by the current standing president of the club, as well as the VP, and advisor.
