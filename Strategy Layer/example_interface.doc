@@ -1,0 +1,51 @@
+from abc import ABC, abstractmethod
+
+class Strategy(ABC):
+    """
+    Interface for all trading strategies.
+    Each strategy must implement buy_signal, sell_signal, allocation, and dataset
+    """
+    dataset = ["AAPL", "NVDA", "MSFT", "AMZN"] #This can be any list of tickers, or a reference to a preconceived dataset from the data layer
+    
+    @abstractmethod
+    def buy_signal(self, data) -> bool:
+        #Determines whether to issue a buy signal.
+        
+
+    @abstractmethod
+    def sell_signal(self, data) -> bool:
+	#Determines whether to issue a sell signal.
+
+    @abstractmethod
+    def allocation(self, data) -> int:
+        #Determines a percent to allocate.
+
+#Below is an example usage
+
+
+
+class MovingAverageStrategy(Strategy):
+    """
+    - Buy when price > moving average
+    - Sell when price < moving average
+    """
+
+    def buy_signal(self, data) -> bool:
+        price = data["price"]
+        ma = data["moving_average"]
+        return price > ma
+
+    def sell_signal(self, data) -> bool:
+        price = data["price"]
+        ma = data["moving_average"]
+        return price < ma
+
+    def allocation(self, data) -> int:
+        return 0.1 #always do 10% allocation
+
+
+
+#This way, any new strategy must implement all three methods or Python will raise an error when trying to instantiate it.
+
+#This is good because then the execution layer and any other layer can have the exact same logic for any strategy because it knows its methods.
+
